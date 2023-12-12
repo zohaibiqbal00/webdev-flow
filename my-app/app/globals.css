@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* helo */
+
 @import url("../styles/theme.css");
 
 body {
