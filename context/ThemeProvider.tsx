@@ -6,7 +6,7 @@ interface ThemeContextType {
   mode: string;
   setMode: (mode: string) => void;
 }
-
+// understand how to use injterface in typescript ?
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
